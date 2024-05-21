@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bodoni Moda', sans-serif;
+    background-color: #fafafa;
+}
+
+body{
+    padding: 0 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav button{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.logo{
+    font-size: 26px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+.home-image{
+    object-fit: cover;
+    width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.home-container{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 100px;
+}
+
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.home-paragraph{
+    line-height: 2;
+}
+
+.home-button{
+    background-color: black;
+    color: white;
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-container h1{
+    font-size: 48px;
+}
+
+.menu-container img{
+    width: 350px;
+    height: auto;
+}
+
+.upper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lower-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lower-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 400px;
+    text-align: center;
+    gap: 10px;
+}
+
+.lower-box-price{
+    letter-spacing: 2px;
+}
+
+.about-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.about-container img{
+    min-width: 400px;
+    max-height: 550px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+.about-right-container{
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-right-container p{
+    line-height: 2;
+}
